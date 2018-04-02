@@ -17,6 +17,11 @@ MonoBehaviour:
   - pbDisableAutoUV2Generation
   - pbForceConvex
   - pbMeshesAreAssets
+  - pbCollapseVertexToFirst
+  - pbShowMover
+  - pbShowDetail
+  - pbUVMaterialPreview
+  - pbFillHoleSelectsEntirePath
   m_Int_keys:
   - pbDefaultEditLevel
   - pbDefaultSelectionMode
@@ -26,6 +31,7 @@ MonoBehaviour:
   - pbDefaultEntity
   - pbDefaultCollider
   - pbShadowCastingMode
+  - pbDragSelectMode
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
@@ -39,8 +45,8 @@ MonoBehaviour:
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
-  m_Bool_values: 0001000000
-  m_Int_values: 0100000001000000000000000000000000000000000000000200000002000000
+  m_Bool_values: 01010000000101010100
+  m_Int_values: 010000000000000000000000000000000000000000000000020000000200000002000000
   m_Float_values:
   - 0
   - 0
