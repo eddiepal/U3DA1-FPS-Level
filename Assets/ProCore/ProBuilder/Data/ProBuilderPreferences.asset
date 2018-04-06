@@ -23,6 +23,8 @@ MonoBehaviour:
   - pbUVMaterialPreview
   - pbFillHoleSelectsEntirePath
   - pbShowTrigger
+  - pbExtrudeAsGroup
+  - pbManifoldEdgeExtrusion
   m_Int_keys:
   - pbDefaultEditLevel
   - pbDefaultSelectionMode
@@ -37,6 +39,7 @@ MonoBehaviour:
   - pbEditorScroll.x
   - pbEditorScroll.y
   - pbBevelAmount
+  - pbExtrudeDistance
   m_String_keys:
   - pbVertexColorPrefs1
   - pbVertexColorPrefs4
@@ -48,12 +51,13 @@ MonoBehaviour:
   m_Color_keys: []
   m_Material_keys:
   - pbDefaultMaterial
-  m_Bool_values: 0101000000010101010001
-  m_Int_values: 000000000000000000000000000000000000000000000000020000000200000000000000
+  m_Bool_values: 01010000000101010100010000
+  m_Int_values: 010000000000000000000000000000000000000000000000020000000200000000000000
   m_Float_values:
   - 0
   - 0
   - 0.4455505
+  - 0.5
   m_String_values:
   - RGBA(1.000, 0.434, 0.434, 1.000)
   - RGBA(0.625, 1.000, 0.625, 1.000)
